@@ -1,0 +1,18 @@
+# Python / IDE
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Large / generated artifacts (DON'T COMMIT)
+outputs/
+data/
+audio/
+*.wav
+*.flac
+*.tar
