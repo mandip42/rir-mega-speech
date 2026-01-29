@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this repository, the RIR-Mega-Speech dataset, or the associated metadata or generation pipeline, please cite the paper and dataset below."
+
+authors:
+  - family-names: Goswami
+    given-names: Mandip
+
+title: "RIR-Mega-Speech: Builder and Metadata for a Large-Scale Reverberant Speech Corpus"
+version: "1.0.0"
+date-released: 2026-01-28
+
+repository-code: "https://github.com/mandip42/rir-mega-speech"
+url: "https://github.com/mandip42/rir-mega-speech"
+
+abstract: >
+  This repository provides the reproducible generation pipeline and metadata
+  for RIR-Mega-Speech, a large-scale reverberant speech corpus created by
+  convolving clean LibriSpeech utterances with simulated room impulse responses
+  from the RIR-Mega dataset. The full audio corpus is hosted on Hugging Face.
+
+keywords:
+  - room impulse response
+  - reverberant speech
+  - acoustic simulation
+  - speech robustness
+  - building acoustics
+  - audio datasets
+
+license: Apache-2.0
+
+preferred-citation:
+  type: article
+  title: "RIR-Mega-Speech: A Large-Scale Reverberant Speech Corpus with Explicit Acoustic Annotations"
+  authors:
+    - family-names: Goswami
+      given-names: Mandip
+  year: 2026
+  journal: "arXiv preprint"
+  arxiv: "2601.19949"
+  url: "https://arxiv.org/abs/2601.19949v1"
+
+references:
+  - type: dataset
+    title: "RIR-Mega-Speech"
+    authors:
+      - family-names: Goswami
+        given-names: Mandip
+    year: 2026
+    publisher: "Hugging Face"
+    url: "https://huggingface.co/datasets/mandipgoswami/rir-mega-speech"
